@@ -25,6 +25,8 @@ $ gulp
 
 Visit http://localhost:4000/ (BrowserSync should automatically spawn this for you!)
 
+You may find that the browser windows spawns before Jekyll has finished building. In this case, refreshing the window a second or two later may resolve the issue.
+
 ## Deployment
 
 `gulp deploy` will push the build artifacts out to the `gh-pages` branch of this repo.
